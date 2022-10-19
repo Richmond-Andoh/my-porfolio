@@ -1,0 +1,78 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.Intro-Image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+.btn-warning{
+    background: yellow;
+    opacity: 0.9;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    color: 2px solid black;
+    border: 1px solid white;
+}
+.btn-warning:hover{
+    background: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+.btn-light{
+    cursor: pointer;
+    margin: 0 0.6rem;
+    background: none;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-light:hover{
+    background: black;
+    opacity: 0.5;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.heroSession {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: absolute;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   text-align: center;
+}
+
+.content h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
