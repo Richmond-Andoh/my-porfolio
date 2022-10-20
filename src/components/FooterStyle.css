@@ -1,10 +1,12 @@
 .footer {
-    padding: 5rem;
+    padding: 5rem 0;
+    width: 100%;
+    background-color: rgb(18, 20, 19);
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer-content .home {
@@ -30,7 +32,7 @@
 }
 
 .right-content h3{
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 .right-content p{
@@ -61,6 +63,11 @@
 
     .left-content {
         margin-bottom: 3rem;
-        flex-wrap: nowrap;
+        text-align: start;
+        width: 100%;
+    }
+    .right-content{
+        width: 100%;
+        text-align: start;
     }
   }
