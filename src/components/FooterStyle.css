@@ -1,0 +1,66 @@
+.footer {
+    padding: 5rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .home {
+    display: flex;
+    padding: 1.5rem;
+}
+.footer-content .home div{
+    margin-left: 1.6rem;
+}
+
+.footer-content .phone {
+    padding: 1.5rem;
+}
+
+.footer-content .mail {
+    padding: 1.5rem;
+}
+.footer-content .phone span{
+    margin-left: 1.6rem;
+}
+.footer-content .mail span{
+    margin-left: 1.6rem;
+}
+
+.right-content h3{
+  font-size: 1.7rem;
+}
+
+.right-content p{
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .right-content .media-icons {
+    padding: 1rem;
+  }
+
+  .right-content .media-icons .facebook {
+   margin-bottom: 0.5rem;
+   margin-right: 0.5rem;
+  }
+
+  .right-content .media-icons .twitter{
+    margin: 0.5rem;
+  }
+  .right-content .media-icons .linkedin {
+    margin: 0.5rem;
+  }
+
+  @media screen and (max-width: 850px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .left-content {
+        margin-bottom: 3rem;
+        flex-wrap: nowrap;
+    }
+  }

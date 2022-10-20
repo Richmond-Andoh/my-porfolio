@@ -7,14 +7,16 @@ const HeroSession = () => {
                <img className="Intro-Image" src={BackgroundIntroImg} alt="IntroImg"/>
             </div>
             <div className="content">
-                <p>HI, I'M A FREELANCER</p>
-                <h1>FRONTEND <span style={{color: "yellow"}}>DEVELOPER</span> </h1>
-                <a href="/project">
-                    <button className="btn-warning" type="button">PROJECTS</button>
-                </a>
-                <a href="/contact">
-                    <button className="btn-light" type="button">CONTACT</button>
-                </a>
+                <p>Hi, I'm a Freelancer</p>
+                <h1>Frontend <span style={{color: "yellow"}}>Developer</span> </h1>
+                <div className="buttons">
+                    <a href="/project">
+                        <button className="btn-warning" type="button">PROJECTS</button>
+                    </a>
+                    <a href="/contact">
+                        <button className="btn-light" type="button">CONTACT</button>
+                    </a>
+                </div>
             </div>
         </div>
     )
