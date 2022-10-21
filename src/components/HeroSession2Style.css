@@ -17,6 +17,15 @@
     position: absolute;
     z-index: -1;
 }
+
+.hero-session h1 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+
+.hero-session p {
+    font-size: 1.5rem;
+}
 .heading {
     width: 100%;
     height: 100%;
@@ -25,4 +34,14 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 850px) {
+    .hero-session h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-session p {
+        font-size: 1.5rem;
+    }
 }
