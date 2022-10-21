@@ -1,0 +1,45 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    padding: 6rem 3rem;
+}
+
+.left-content{
+    width: 30%;
+    padding: 3rem 1.5rem;
+}
+
+.left-content .left-heading {
+    padding: 1rem 0;
+}
+.left-content p {
+    padding: 0.5rem 0;
+}
+.left-content a {
+    margin-top: 1rem;;
+}
+.btn-warning{
+    background: yellow;
+    opacity: 0.9;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    color: 2px solid black;
+    border: 1px solid white;
+}
+
+.right-content {
+    width: 60%;
+    position: relative;
+}
+
+.right-content .img-top {
+    width: 70%;
+    height: 100%;
+}
+.right-content .img-bottom {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
