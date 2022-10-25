@@ -1,0 +1,40 @@
+label {
+    color: #fff;
+    margin-bottom: 0.4rem;
+}
+
+form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+}
+
+form input, textarea {
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    background-color: rgba(225, 225, 225, 0.2);
+    border-color: rgba(225, 225, 225, 0.2);
+    color: #f4f4f4;
+}
+.btn-submit{
+    text-align: center;
+    background: yellow;
+    opacity: 0.9;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: 2px solid black;
+    border: 1px solid white;
+}
+
+.btn-submit:hover{
+    text-align: center;
+    background: #333;
+    opacity: 0.9;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+}

@@ -1,5 +1,5 @@
 import "./AboutContentStyle.css";
-import react1 from "../Images/react1.png";
+import react1 from "../Images/react1.avif";
 import react2 from "../Images/react2.avif";
 
 import React from 'react'
@@ -7,7 +7,6 @@ import React from 'react'
 const AboutContent = () => {
   return (
     <div className="about">
-        <div className="about-container">
             <div className="left-content">
                 <h1 className="left-heading">Who Am I?</h1>
                 <p>I'm a Freelancer FrontEnd React Developer.
@@ -27,7 +26,6 @@ const AboutContent = () => {
                     </div>
                </div>
             </div>
-        </div>
     </div>
   )
 }
