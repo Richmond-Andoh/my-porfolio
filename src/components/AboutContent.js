@@ -6,7 +6,9 @@ import React from 'react'
 
 const AboutContent = () => {
   return (
-    <div className="about">
+    <div>
+        <h1 style={{textAlign: "center"}}>ABOUT.</h1>
+        <div className="about">
             <div className="left-content">
                 <h1 className="left-heading">Who Am I?</h1>
                 <p>I'm a Freelancer FrontEnd React Developer.
@@ -26,6 +28,7 @@ const AboutContent = () => {
                     </div>
                </div>
             </div>
+        </div>
     </div>
   )
 }
